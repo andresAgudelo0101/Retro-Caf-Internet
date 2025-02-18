@@ -2,34 +2,51 @@ import Image from 'next/image';
 
 export default function Footer() {
 return (
-<footer className="bg-black rounded-lg shadow-sm ">
-    <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div className="sm:flex sm:items-center sm:justify-between">
-            <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                <Image  aria-hidden src="/retrocafe.png" alt="File icon" width={48} height={48} />    
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Retro Cafe</span>
+<footer className=" h-auto p-4 bg-zinc-900 flex flex-col justify-center items-center text-base text-gray-300">
+      <div className="flex flex-col md:flex-row w-auto gap-5">
+        <div>
+          <p className="text-md font-normal leading-normal tracking-tight ">
+            Síguenos
+          </p>
+          <div className="flex flex-row gap-2 justify-start">
+            <a
+              href="https://www.instagram.com"	
+              target="_blank"
+            >
+                <Image src="/instagram.png" width={22} height={22} alt="Picture of the author"/>
             </a>
-            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                <li>
-                    <a href="#" className="hover:underline me-4 md:me-6">About</a>
-                </li>
-                <li>
-                    <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
-                </li>
-                <li>
-                    <a href="#" className="hover:underline">Contact</a>
-                </li>
-            </ul>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+            >
+            <Image src="/facebook.png" width={22} height={22} alt="Picture of the author"/>
+
+            </a>
+          </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
-    </div>
-</footer>
-
-
-
-    );
+        <div>
+          <p className="text-md font-normal leading-normal tracking-tight ">
+            Contacto
+          </p>
+          <div className="flex flex-col gap-2 justify-center">
+            <div className="flex flex-row gap-1">
+            <Image src="/wsp.svg" width={22} height={22} alt="Picture of the author"/>
+              <p className="text-sm font-semibold leading-normal tracking-tight text-slate-100 font-sans">
+                +57 3108415549
+              </p>
+            </div>
+            <div className="flex flex-row gap-1">
+            <Image src="/email.png" width={22} height={22} alt="Picture of the author"/>
+              <p className="text-sm font-semibold leading-normal tracking-tight text-slate-100 font-sans">
+              retrocafeinternet@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-row justify-center items-center gap-3 text-xs">
+         Copyright © 2025 Retro Cafe Internet
+      </div>
+    </footer>
+ );
 }
