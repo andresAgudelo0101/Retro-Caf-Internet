@@ -5,11 +5,10 @@ import Inicio from "./inicio/Inicio";
 
 export default function Home() {
   return (
-  <div className="grid">
-    <Header />
-    <Inicio />
-    <Footer/>
-  </div>
-  )
-};
-    
+    <div className="grid">
+      <Header />
+      <Inicio />
+      <Footer />
+    </div>
+  );
+}
