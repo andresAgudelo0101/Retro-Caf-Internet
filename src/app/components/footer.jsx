@@ -12,28 +12,23 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-2">
           <div>
-            <p className="text-lg text-fuchsia-400 font-semibold"> Síguenos</p>
+            <p className="text-lg text-fuchsia-400 font-fuente"> Síguenos</p>
             <div className="flex flex-row gap-2">
               <a href="https://www.instagram.com" target="_blank">
                 <Image
                   src="/instagram.png"
                   width={28}
                   height={22}
-                  alt="Picture of the author"
+                  alt="insta"
                 />
               </a>
               <a href="https://www.facebook.com" target="_blank">
-                <Image
-                  src="/facebook.png"
-                  width={28}
-                  height={22}
-                  alt="Picture of the author"
-                />
+                <Image src="/facebook.png" width={28} height={22} alt="face" />
               </a>
             </div>
           </div>
           <div>
-            <p className="text-lg text-fuchsia-400 font-semibold "> Contacto</p>
+            <p className="text-lg text-fuchsia-400 font-fuente "> Contacto</p>
             <div>
               <div className="flex flex-row gap-1">
                 <Image
@@ -45,12 +40,7 @@ export default function Footer() {
                 <p>+57 3108415549</p>
               </div>
               <div className="flex flex-row gap-1">
-                <Image
-                  src="/email.png"
-                  width={28}
-                  height={22}
-                  alt="Picture of the author"
-                />
+                <Image src="/email.png" width={28} height={22} alt="email" />
                 <p>retrocafeinternet@gmail.com</p>
               </div>
             </div>

@@ -9,16 +9,21 @@ export default function Inicio() {
           className=" h-96 md:h-auto  md:w-100 "
         />
       </div>
-      <div className="flex justify-center items-center h-auto p-5 md:h-full md:p-8 md:text-lg">
+      <div className="flex justify-center items-center h-auto p-5 md:h-full md:p-8 md:text-lg ">
         <div className="flex flex-col gap-3">
           <p>
-            En <strong className=" text-red-500">Retro Cafe</strong>, fusionamos
-            café de especialidad, reparación de computadoras y videojuegos retro
-            en un solo lugar. Somos un espacio único donde disfrutas, solucionas
-            y revives recuerdos del pasado.
+            En{" "}
+            <strong className=" text-red-500 font-fuente text-xl">
+              Retro Cafe
+            </strong>
+            , fusionamos café de especialidad, reparación de computadoras y
+            videojuegos retro en un solo lugar. Somos un espacio único donde
+            disfrutas, solucionas y revives recuerdos del pasado.
           </p>
 
-          <h2 className=" text-fuchsia-400">Nuestros Servicios</h2>
+          <h2 className=" text-fuchsia-400 font-fuente text-xl">
+            Nuestros Servicios
+          </h2>
           <ul>
             <li>
               <strong>Café de Especialidad</strong>: Granos selectos, métodos
@@ -40,12 +45,17 @@ export default function Inicio() {
             </li>
           </ul>
 
-          <h2 className=" text-fuchsia-400">Nuestro Espacio</h2>
+          <h2 className=" text-fuchsia-400 font-fuente text-xl">
+            Nuestro Espacio
+          </h2>
           <p>
-            En <strong className=" text-red-500">Retro Cafe</strong>, hemos
-            creado un rincón íntimo y acogedor, perfecto para grupos pequeños
-            hasta 5 personas. Aunque es compacto, está diseñado para ofrecerte
-            todo lo que necesitas:
+            En{" "}
+            <strong className=" text-red-500 font-fuente text-xl">
+              Retro Cafe
+            </strong>
+            , hemos creado un rincón íntimo y acogedor, perfecto para grupos
+            pequeños hasta 5 personas. Aunque es compacto, está diseñado para
+            ofrecerte todo lo que necesitas:
           </p>
           <ul>
             <li>

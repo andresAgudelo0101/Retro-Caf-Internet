@@ -6,9 +6,17 @@ export default function Productos() {
     <>
       <Header />
       <div className="w-full h-auto min-h-screen bg-gray-200 grid justify-center items-center p-2">
+        <div className=" w-full h-auto ">
+          <h1 className="font-fuente text-6xl  tracking-wide text-fuchsia-500 p-2">
+            Bebidas
+          </h1>
+        </div>
         <div className="grid grid-cols-2  md:grid-cols-3 gap-3 px-4 py-3">
           {data.map((prod) => (
-            <div className="bg-black rounded-lg flex flex-col p-3 items-center md:max-w-80">
+            <div
+              className="bg-black rounded-lg flex flex-col p-3 items-center md:max-w-80"
+              key={prod.id}
+            >
               <img
                 className="p-4 rounded-t-lg  w-auto max-h-48"
                 src={prod?.imagen}
