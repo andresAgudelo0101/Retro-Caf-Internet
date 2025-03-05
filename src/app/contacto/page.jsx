@@ -15,7 +15,7 @@ export default function Contacto() {
 
     mapRef.current = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: "mapbox://styles/mapbox/streets-v12",
+      style: "mapbox://styles/andres11298/cl0vhlric000h14qpffv5407k",
       center: [-75.50307617472883, 6.056310352427602],
       zoom: 15.18,
     });
