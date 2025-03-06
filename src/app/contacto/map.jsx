@@ -9,7 +9,11 @@ const Map = () => {
   const position = [6.056395704059504, -75.50308690356476]; // Coordenadas de Londres
 
   return (
-    <MapContainer center={position} zoom={14} className="w-full h-96">
+    <MapContainer
+      center={position}
+      zoom={14}
+      className="w-full  md:h-full h-96 rounded-md"
+    >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

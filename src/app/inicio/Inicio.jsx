@@ -2,18 +2,18 @@ import Image from "next/image";
 export default function Inicio() {
   return (
     <div className="grid h-90 md:grid-cols-2 md:h-85">
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center bg-colores-2">
         <img
           src="/cafeteria.jpg"
           alt="imagen1"
           className=" h-96 md:h-auto  md:w-100 "
         />
       </div>
-      <div className="flex justify-center items-center h-auto p-5 md:h-full md:p-8 md:text-lg ">
+      <div className="flex justify-center items-center h-auto p-5 md:h-full md:p-8 md:text-lg bg-colores-2">
         <div className="flex flex-col gap-3">
           <p>
             En{" "}
-            <strong className=" text-red-500 font-fuente text-xl">
+            <strong className=" text-colores-6 font-fuente text-xl">
               Retro Cafe
             </strong>
             , fusionamos café de especialidad, reparación de computadoras y
@@ -21,7 +21,7 @@ export default function Inicio() {
             disfrutas, solucionas y revives recuerdos del pasado.
           </p>
 
-          <h2 className=" text-fuchsia-400 font-fuente text-xl">
+          <h2 className=" text-colores-3 font-fuente text-xl">
             Nuestros Servicios
           </h2>
           <ul>
@@ -45,12 +45,12 @@ export default function Inicio() {
             </li>
           </ul>
 
-          <h2 className=" text-fuchsia-400 font-fuente text-xl">
+          <h2 className=" text-colores-3 font-fuente text-xl">
             Nuestro Espacio
           </h2>
           <p>
             En{" "}
-            <strong className=" text-red-500 font-fuente text-xl">
+            <strong className=" text-colores-6 font-fuente text-xl">
               Retro Cafe
             </strong>
             , hemos creado un rincón íntimo y acogedor, perfecto para grupos

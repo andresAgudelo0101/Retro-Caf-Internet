@@ -28,7 +28,7 @@ export default function Header() {
 
           <li>
             <a className="hover:text-slate-50" href="/contacto">
-              Contacto
+              Ubicanos
             </a>
           </li>
         </ul>
