@@ -20,7 +20,7 @@ export default function ProductCard({ productos }) {
             </div>
             <div className=" w-full ">
               <h2 className=" font-bold text-xl text-colores-3 ">
-                $ {prod.precio}
+                $ {prod?.precio}
               </h2>
             </div>
           </div>

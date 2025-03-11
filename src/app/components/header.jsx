@@ -27,6 +27,12 @@ export default function Header() {
           </li>
 
           <li>
+            <a className="hover:text-slate-50" href="/servicios">
+              Servicios
+            </a>
+          </li>
+
+          <li>
             <a className="hover:text-slate-50" href="/contacto">
               Ubicanos
             </a>
