@@ -6,7 +6,7 @@ export default function Servicios() {
   return (
     <>
       <Header />
-      <div className=" grid grid-cols-1 md:grid-cols-2  grid-rows-3 min-h-[75vh] w-100  bg-colores-2 items-center place-content-center p-8 md:p-14 gap-8">
+      <div className=" text-colores-1 grid grid-cols-1 md:grid-cols-2  grid-rows-3 min-h-[75vh] w-100  bg-colores-2 items-center place-content-center p-8 md:p-14 gap-8">
         <div>
           <Image src={"/pc.png"} width={48} height={48} alt="cpu" />
 

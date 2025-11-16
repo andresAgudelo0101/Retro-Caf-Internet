@@ -18,7 +18,7 @@ export default async function ProductoCategoria({ params }) {
   return (
     <>
       <Header />
-      <div className="w-full min-h-[70vh] h-auto md:min-h-[75vh] bg-colores-1 grid justify-center items-center p-2">
+      <div className="w-full min-h-[70vh] h-auto md:min-h-[75vh]  grid justify-center items-center p-2 bg-black">
         <div className=" w-full h-auto ">
           <h1 className="font-fuente md:text-6xl text-center text-5xl tracking-wide text-colores-3 p-4">
             {categoria}

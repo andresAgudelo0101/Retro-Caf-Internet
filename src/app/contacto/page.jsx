@@ -6,7 +6,7 @@ export default function Contacto() {
   return (
     <>
       <Header />
-      <div className="w-100 md:h-[75vh] h-auto bg-colores-1 grid    md:grid-cols-2 justify-center items-center p-4 gap-1">
+      <div className="w-100 md:h-[75vh] h-auto bg-black grid    md:grid-cols-2 justify-center items-center p-4 gap-1">
         <div className="md:col-span-2 w-full h-auto ">
           <h1 className="font-fuente md:text-6xl text-4xl  text-left md:text-center tracking-wide text-colores-3 p-5">
             Visitanos en

@@ -4,7 +4,7 @@ export default function ProductCard({ productos }) {
       <div className="grid grid-cols-2  md:grid-cols-3 gap-3 p-4 ">
         {productos?.map((prod) => (
           <div
-            className="bg-colores-2 rounded-lg flex flex-col p-3 items-center md:max-w-80  place-content-between"
+            className="text-white bg-colores-2 rounded-lg flex flex-col p-3 items-center md:max-w-80  place-content-between"
             key={prod?.id}
           >
             <img
@@ -13,13 +13,15 @@ export default function ProductCard({ productos }) {
               alt={prod?.name}
             />
             <div className="flex justify-items-start w-full">
-              <h2 className=" font-semibold text-lg">{prod?.nombre}</h2>
+              <h2 className="text-colores-3 font-bold text-xl">
+                {prod?.nombre}
+              </h2>
             </div>
             <div className="flex justify-items-start w-full">
               <h3 className="font-ligth text-sm">{prod?.descripcion}</h3>
             </div>
             <div className=" w-full ">
-              <h2 className=" font-bold text-xl text-colores-3 ">
+              <h2 className=" font-bold text-xl text-colores-5 ">
                 $ {prod?.precio}
               </h2>
             </div>

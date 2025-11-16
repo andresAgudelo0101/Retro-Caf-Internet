@@ -9,8 +9,8 @@ export default function Inicio() {
           className=" h-96 md:h-auto  md:w-100 "
         />
       </div>
-      <div className="flex justify-center items-center h-auto p-5 md:h-full md:p-8 md:text-lg bg-colores-2">
-        <div className="flex flex-col gap-3">
+      <div className="flex justify-center items-center min-h-[70vh] h-auto md:min-h-[75vh]  p-5 md:h-full md:p-8 md:text-lg bg-colores-2">
+        <div className="flex flex-col gap-3  text-colores-1">
           <p>
             En{" "}
             <strong className=" text-colores-6 font-fuente text-xl">
