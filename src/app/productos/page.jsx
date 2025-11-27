@@ -9,6 +9,7 @@ export default async function Productos() {
   );
   const productos = await data.json();
 
+  const productosOrdenados = productos.data.sort((a, b) => b.precio - a.precio);
   return (
     <>
       <Header />
@@ -19,7 +20,7 @@ export default async function Productos() {
           </h1>
 
           <MenuCategoria />
-          <ProductCard productos={productos.data} />
+          <ProductCard productos={productosOrdenados} />
         </div>
       </div>
       <Footer />
